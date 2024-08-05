@@ -1,0 +1,230 @@
+{
+    "Changes": [
+        {	
+        "Action": "EditData",
+        "Target": "Data/ConcessionTastes",
+        "Entries": {
+        
+            "Goldenglow": {
+                "Name": "Goldenglow",
+                "LovedTags": [ "Cotton Candy", "Jasmine Tea"],
+                "LikedTags": [ "Black Licorice","Cappuccino Mousse Cake","Star Cookie" ],
+                "DislikedTags": [ "Popcorn","Sour Slimes","Kale Smoothie" ]
+                }
+                   }
+         },
+
+        {
+          "Action": "EditData",
+          "Target": "Data/MoviesReactions",
+          "Entries": {
+          
+            "Goldenglow": {
+              "NPCName": "Goldenglow",
+              "Reactions": [
+
+                {
+                  "Tag": "spring_movie_0",
+                  "Response": "love",
+                  "Whitelist": [],
+                  "SpecialResponses": {
+                    "BeforeMovie": {
+                      "ResponsePoint": null,
+                      "Script": "",
+                      "Text": "Well, I'm ready, let's go in sometime."
+                    },
+                    "DuringMovie": {
+                      "ResponsePoint": null,
+                      "Script": "/message \"Susie has some feelings...\"",
+                      "Text": ""
+                    },
+                    "AfterMovie": {
+                      "ResponsePoint": null,
+                      "Script": "",
+                      "Text": "Well, a blessing in disguise...$8#$b# I think this is a good ending...$9"
+                    }
+                  },
+                  "ID": "reaction_0"
+                },
+                
+ 
+                {
+                  "Tag": "summer_movie_0",
+                  "Response": "like",
+                  "Whitelist": [],
+                  "SpecialResponses": {
+                    "BeforeMovie": {
+                      "ResponsePoint": null,
+                      "Script": "",
+                      "Text": "I'm looking forward to this video. $9"
+                    },
+                    "DuringMovie": {
+                      "ResponsePoint": null,
+                      "Script": "/message \"Susie was immersed in the content of the film...\"",
+                      "Text": "Um, this big face suddenly appeared and scared me! $5"
+                    },
+                    "AfterMovie": {
+                      "ResponsePoint": null,
+                      "Script": "",
+                      "Text": "Hahaha, he's pretty smart! $1"
+                    }
+                  },
+                  "ID": "reaction_1"
+                },
+
+
+                {
+                  "Tag": "fall_movie_0",
+                  "Response": "dislike",
+                  "Whitelist": [],
+                  "SpecialResponses": {
+                    "BeforeMovie": {
+                      "ResponsePoint": null,
+                      "Script": "",
+                      "Text": "@...Is this movie really good?...I think the poster doesn't look very good...$10"
+                    },
+                    "DuringMovie": {
+                      "ResponsePoint": null,
+                      "Script": "/message \"Susie was a little scared... and subconsciously leaned towards you...\"",
+                      "Text": "......$2"
+                    },
+                    "AfterMovie": {
+                      "ResponsePoint": null,
+                      "Script": "",
+                      "Text": "Um...what the hell is this...$2#$b#@, don't take me to see such a movie next time! $5"
+                    }
+                  },
+                  "ID": "reaction_2"
+                },
+                
+ 
+                {
+                  "Tag": "winter_movie_0",
+                  "Response": "love",
+                  "Whitelist": [],
+                  "SpecialResponses": {
+                    "BeforeMovie": {
+                      "ResponsePoint": null,
+                      "Script": "",
+                      "Text": "Hmm, a miracle on the ranch? I'm curious about what saved them."
+                    },
+                    "DuringMovie": {
+                      "ResponsePoint": null,
+                      "Script": "/message \"Susie is looking forward to the development of the plot...\"",
+                      "Text": ""
+                    },
+                    "AfterMovie": {
+                      "ResponsePoint": null,
+                      "Script": "",
+                      "Text": "Well... not bad. For them, this spiritual sustenance is the most important thing to them. #$b# Well, I think I can understand them...$7#$b# In the end, they were saved by this spiritual sustenance, which is indeed a miracle among miracles, haha. $1#$b# Okay, let's go"
+                    }
+                  },
+                  "ID": "reaction_3"
+                },
+                
+
+                {
+                  "Tag": "spring_movie_1",
+                  "Response": "like",
+                  "Whitelist": [],
+                  "SpecialResponses": {
+                    "BeforeMovie": {
+                      "ResponsePoint": null,
+                      "Script": "",
+                      "Text": "When I saw this title, I felt like I could imagine the damn translation tone, haha. $1"
+                    },
+                    "DuringMovie": {
+                      "ResponsePoint": null,
+                      "Script": "/message \"Suzy is enjoying this video...\"",
+                      "Text": "Well, this scene is really nice!"
+                    },
+                    "AfterMovie": {
+                      "ResponsePoint": null,
+                      "Script": "",
+                      "Text": "That's all good, isn't it? Hehe. $1"
+                    }
+                  },
+                  "ID": "reaction_4"
+                },
+
+                {
+                  "Tag": "summer_movie_1",
+                  "Response": "like",
+                  "Whitelist": [],
+                  "SpecialResponses": {
+                    "BeforeMovie": {
+                      "ResponsePoint": null,
+                      "Script": "",
+                      "Text": "Judging from the poster, it seems to be a very cute and happy movie."
+                    },
+                    "DuringMovie": {
+                      "ResponsePoint": null,
+                      "Script": "/message \"Susie seemed to be enjoying the show.\"",
+                      "Text": "I like this music..."
+                    },
+                    "AfterMovie": {
+                      "ResponsePoint": null,
+                      "Script": "",
+                      "Text": "Hmm...#$b# not bad."
+                    }
+                  },
+                  "ID": "reaction_5"
+                },
+
+                {
+                  "Tag": "fall_movie_1",
+                  "Response": "dislike",
+                  "Whitelist": [],
+                  "SpecialResponses": {
+                    "BeforeMovie": {
+                      "ResponsePoint": null,
+                      "Script": "",
+                      "Text": "The poster seems to be a horror documentary... Um, @, I'm a little scared... $2"
+                    },
+                    "DuringMovie": {
+                      "ResponsePoint": null,
+                      "Script": "/message \"Susie is a little nervous...\"",
+                      "Text": ""
+                    },
+                    "AfterMovie": {
+                      "ResponsePoint": null,
+                      "Script": "",
+                      "Text": "I thought it would scare me, haha. $1#$b#Okay, let's go."
+                    }
+                  },
+                  "ID": "reaction_6"
+                },
+                
+
+                {
+                  "Tag": "winter_movie_1",
+                  "Response": "like",
+                  "Whitelist": [],
+                  "SpecialResponses": {
+                    "BeforeMovie": {
+                      "ResponsePoint": null,
+                      "Script": "",
+                      "Text": "I think this is a good movie, but I don't really like black and white movies. $8"
+                    },
+                    "DuringMovie": {
+                      "ResponsePoint": null,
+                      "Script": "/message \"Susie is thinking about the story described in the film...\"",
+                      "Text": ""
+                    },
+                    "AfterMovie": {
+                      "ResponsePoint": null,
+                      "Script": "",
+                      "Text": "Well...it leaves a big suspense...$8"
+                    }
+                  },
+                  "ID": "reaction_7"
+                }
+              ]
+            }
+    
+        
+        }
+        }
+        
+    ]
+    }

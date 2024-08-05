@@ -1,0 +1,360 @@
+{
+    "Format": "2.0.0",
+    "Changes":[
+        //Basic Information
+        {
+            "LogName":"Basic Information",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Goldenglow": {
+                "DisplayName": "Susie",
+                "BirthSeason": "winter",
+                "BirthDay": 12,
+                "HomeRegion": "Town",
+                "Language": "Default",
+                "Gender": "Female",
+                "Age": "Adult",
+                "Manner": "Polite",
+                "SocialAnxiety": "Neutral",
+                "Optimism": "Positive",
+                "IsDarkSkinned": false,
+                "CanBeRomanced": true,
+                "LoveInterest": "",
+                "Calendar": "AlwaysShown",
+                "SocialTab": "UnknownUntilMet",
+                "SocializeConditions": null,
+                "CanVisitIslandCondition": null,
+                "ExcludeFromIntroductionsQuest": false,
+                "ExcludeFromPerfectionScore": false,
+               // "EndSlideShow": 1,//End slideshow?
+                "FriendsAndFamily": {},//Friends and Family
+                "UnlockConditions": null,
+                "SpawnIfMissing": true,
+                "Home": [
+                  {
+                    "Id": "Default",
+                    "Condition":null,
+                    "Location": "HaleyHouse",
+                    "Tile": {
+                      "X": 31,
+                      "Y": 7
+                    },
+                    "Direction": "right"
+                  }
+                ],
+                 "SpouseRoom": {
+                      "MapAsset": "GoldenglowSpouseRoom",
+                      "MapSourceRect": {
+                          "X": 0,
+                          "Y": 0,
+                          "Width": 6,
+                          "Height": 9
+                      }
+                  },
+                "SpousePatio": {
+                    "MapAsset": "GoldenglowSpousePatio",
+                    "MapSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 4,
+                        "Height": 4
+                      }
+                  },
+                  "Appearance": [
+                  {
+                    "Id": "Winter",
+                    "Season": "Winter",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Goldenglow_Winter",
+                    "Sprite": "Characters/Goldenglow_Winter",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+                ],
+                "TextureName": null,//
+                "Size": {
+                  "X": 16,
+                  "Y": 32
+                },
+                "Breather": true,
+                "HiddenProfileEmoteSound": null,
+                "HiddenProfileEmoteDuration": -1,
+                "HiddenProfileEmoteStartFrame": 16,
+                "HiddenProfileEmoteFrameCount": 4,
+                "HiddenProfileEmoteFrameDuration": 200.0,
+                "FestivalVanillaActorIndex": 71,//
+                "CustomFields": {}
+              }
+            }
+          },
+          
+          {
+            "LogName":"Spouse Room",
+            "Action": "Load",
+            "Target": "Maps/GoldenglowSpouseRoom",
+            "FromFile": "assets/map/GoldenglowSpouseRoom.tmx"
+          },
+
+          {   
+              "LogName":"Terrace",
+              "Action": "Load",
+              "Target": "Maps/GoldenglowSpousePatio",
+              "FromFile": "assets/map/GoldenglowSpousePatio.tbin"
+          },   
+        //Gift preferences
+        //Peach 636/Cat's Eye 564/Glass Yam 208/Radish Salad 609/Emerald 70/Rose Fairy 595/Battery 787 Fruit Wine 348
+        {   
+            "LogName":"Gift preferences",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Goldenglow": "Hmm? Can I really accept this? ! $9#$b#Thank you very much!$6/70 208 564 595 609 636/Is this for me? Thank you for your help.$1/348 787/Well...$10//...好的$2//Thanks!// "
+            }
+        },
+      
+        //avatar
+        {
+            "LogName":"Basic Avatar",
+            "Action": "Load",
+            "Target": "Portraits/Goldenglow",
+            "FromFile": "assets/img/Portraits.png"
+        },
+       {
+            "LogName":"Beach Avatar",
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Portraits/Goldenglow_Beach",
+            "FromFile": "assets/img/Portraits_Beach.png"
+        },
+        {
+            "LogName":"Winter Avatar",
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Portraits/Goldenglow_Winter",
+            "FromFile": "assets/img/Portraits_Winter.png"
+        },
+        //Walking table
+        {
+            "LogName":"Basic table",
+            "Action": "Load",
+            "Target": "Characters/Goldenglow",
+            "FromFile": "assets/img/SpriteSheet.png"
+        },
+        {
+            "LogName":"Beach Table",
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Characters/Goldenglow_Beach",
+            "FromFile": "assets/img/SpriteSheet_Beach.png"
+        },
+        {
+            "LogName":"Winter watch",
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Characters/Goldenglow_Winter",
+            "FromFile": "assets/img/SpriteSheet_Winter.png"
+        },
+
+        //dialogue
+        {  
+            "LogName":"dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Goldenglow",
+            "FromFile": "assets/dialogue/DialogueGoldenglow.json"
+        },
+        //Necklace Dialogue
+        {
+          "LogName": "Dialogue after giving the necklace",
+          "Action": "EditData",
+          "Target": "Data/EngagementDialogue",
+          "Entries": {
+              "Goldenglow0": "Hmm... It's a little weird. $4#$e#I think I can see the beautiful future that belongs to us. #$b#But we should focus on the present, right, dear? $1",
+              "Goldenglow1": "Well... this is all too dreamy for me...$8#$b# but I'm ready to embrace our new life! $4#$e#@, don't worry, I'll prepare those things, just wait. $1"
+  
+          }
+      },
+        {   
+        "LogName": "rain",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/rainy",
+        "Entries": {
+          "Goldenglow": "It's raining again...$3#$e#I don't want to get wet in the rain, it's not comfortable at all.$2"
+        }
+       },
+        { 
+            "LogName":"Marriage Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueGoldenglow",
+            "FromFile": "assets/dialogue/MarriageDialogueGoldenglow.json"
+        },
+        {
+          "LogName": "Post-wedding movie dialogue",
+          "Action": "EditData",
+          "Target": "Strings/Characters",
+          "Entries": {
+            "MovieInvite_Spouse_Goldenglow": "I'd love to! $4#$b#This reminds me of our old times, hehe...$1"
+              }
+          },
+          {
+            "LogName": "Mountaintop Dialogue",
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+            "SummitEvent_Dialogue3_Goldenglow": "Before this, I never expected to have such a life...#$b# But all the broken past is over... Now that you are by my side, I am the happiest!$4"
+            }
+          },
+          {
+            "LogName": "Other conversations",
+            "Action": "Include",
+            "FromFile": "assets/dialogue/OtherDialogue.json"
+         },
+        //journey
+        {   "LogName":"journey",
+            "Action": "Load",
+            "Target": "Characters/schedules/Goldenglow",
+            "FromFile": "assets/schedules/schedule.json"
+        },
+        {   "LogName":"Special Itinerary",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Goldenglow",
+            "Entries": {
+              "6": "900 HaleyHouse 30 13 0/1100 Beach 11 39 2/1600 Town 26 99 2/1900 HaleyHouse 28 7 0/2200 HaleyHouse 31 7 1 goldenglow_sleep",
+              "27": "900 HaleyHouse 28 7 0/1000 Forest 66 44 goldenglow_sit_read/1400 Forest 33 25 2/1800 Town 26 99 2/2000 HaleyHouse 30 13 goldenglow_read/2200 HaleyHouse 31 7 1 goldenglow_sleep"
+          },
+            "When": {
+            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+        }
+        },
+        //Animation
+        { "LogName":"Animation",
+          "Action": "EditData",
+          "Target": "Data/animationDescriptions",
+          "Entries": {
+              "goldenglow_sleep": "29/29/29",
+              "goldenglow_sit":"24/24/24",
+              "goldenglow_sit_read":"16 17/18/17 16",
+              "goldenglow_read":"16/21/16",
+              "goldenglow_sideways_left":"12/22/12",
+              "goldenglow_sideways_right":"4/23/4"
+          }
+        },
+        {
+          "LogName": "Itinerary Dialogue",
+          "Action": "Load",
+          "Target": "Strings/schedules/Goldenglow",
+          "FromFile":"assets/schedules/scheduleDialogue.json"
+      },
+        //datacontent
+        {
+          "LogName": "Movie",
+          "Action": "Include",
+          "FromFile": "data/Movies.json"
+      },
+      {
+          "LogName": "festival",
+          "Action": "Include",
+          "FromFile": "data/Festivals.json",
+          "When": {
+            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+        }
+      },
+      {
+        "LogName": "festival",
+        "Action": "Include",
+        "FromFile": "data/SveFestivals.json",
+        "When": {
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+      }
+    },
+      {
+        "LogName": "event",
+        "Action": "Include",
+        "FromFile": "data/Events.json"
+     },
+      {
+        "LogName": "Store Portraits",
+        "Action": "Include",
+        "FromFile": "data/SpousePortrait.json"
+     },
+  
+
+      //Other NPCs
+      {     "LogName":"Emily's itinerary",
+            "Action": "Load",
+            "Target": "Characters/schedules/Emily",
+            "FromFile": "assets/schedules/EmilySchedule.json"
+        },
+      //Loading a map
+        {
+          "LogName":"Haley's",
+          "Action": "EditMap",
+          "Target": "Maps/HaleyHouse",
+          "FromFile": "assets/map/HaleyHouse.tmx",
+          "FromArea": { 
+          "X":24,
+          "Y": 0,
+          "Width": 10,
+          "Height": 30
+        },
+          "ToArea":{
+           "X":24,
+           "Y": 0,
+           "Width": 10,
+           "Height": 30
+          },
+           "Update": "OnLocationChange"
+         },
+         {
+        "LogName": "门",
+         "Action": "EditMap",
+         "Target": "Maps/HaleyHouse", 
+         "MapProperties": {
+            "DayTiles":"Front 6 1 256 Front 6 2 288 Front 13 1 256 Front 13 2 288 Front 22 1 256 Front 22 2 288 Front 18 1 256 Front 18 2 288 Front 19 12 256 Front 19 13 288 Front 22 12 256 Front 22 13 288 Front 28 2 256 Front 28 3 288 Back 22 5 94 Back 18 5 94 Back 18 6 126 Back 13 5 94 Back 13 6 126 Back 22 16 226 Back 22 17 258 Back 19 16 226 Back 19 17 258",
+            "NightTiles":"Front 6 1 1253 Front 6 2 1285 Front 13 1 1253 Front 13 2 1285 Front 22 1 1253 Front 22 2 1285 Front 18 1 1253 Front 18 2 1285 Front 19 12 1253 Front 19 13 1285 Front 22 12 1253 Front 22 13 1285 Front 28 2 1253 Front 28 3 1285 Back 22 5 124 Back 18 5 124 Back 18 6 124 Back 13 5 124 Back 13 6 124 Back 22 16 294 Back 22 17 262 Back 19 16 294 Back 19 17 262",
+            "Doors": "5 13 1 120 16 12 1 120 26 18 1 120",
+            "Warp":"2 25 Town 20 89"
+         },
+          "When": {
+            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+        }
+            },
+            {
+              "LogName": "门2",
+               "Action": "EditMap",
+               "Target": "Maps/HaleyHouse", 
+               "MapProperties": {
+                  "DayTiles":"Front 6 1 256 Front 6 2 288 Front 13 1 256 Front 13 2 288 Front 22 1 256 Front 22 2 288 Front 18 1 256 Front 18 2 288 Front 19 12 256 Front 19 13 288 Front 22 12 256 Front 22 13 288 Front 28 2 256 Front 28 3 288 Back 22 5 94 Back 18 4 228 Back 18 5 260 Back 13 4 228 Back 13 5 260 Back 22 16 226 Back 22 17 258 Back 19 16 226 Back 19 17 258",
+                  "NightTiles":"Front 6 1 1253 Front 6 2 1285 Front 13 1 1253 Front 13 2 1285 Front 22 1 1253 Front 22 2 1285 Front 18 1 1253 Front 18 2 1285 Front 19 12 1253 Front 19 13 1285 Front 22 12 1253 Front 22 13 1285 Front 28 2 1253 Front 28 3 1285 Back 22 5 124 Back 18 4 200 Back 18 5 2119 Back 13 4 200 Back 13 5 2119 Back 22 16 294 Back 22 17 262 Back 19 16 294 Back 19 17 262",
+                  "Doors": "5 13 1 120 16 12 1 120 26 18 1 120",
+                  "Warp":"2 25 Town 20 89"
+               },
+                "When": {
+                  "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+              }
+                  },
+    {
+      "LogName": "Item Information",
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+	      "GoldenglowRoom.1": "Hair scissors",
+	      "GoldenglowRoom.2": "Empty",
+	      "GoldenglowRoom.3": "Theory of Originium Craftsmanship",
+        "GoldenglowRoom.4": "Hairdressing: From Beginning to End",
+        "GoldenglowRoom.5": "The Beginner's Guide to Bartending",
+        "GoldenglowRoom.6": "This book is full of notes, but you don't quite understand what they say.",
+        "GoldenglowRoom.7": "Susie's schedule, which details what she has to do every day",
+        "GoldenglowRoom.8": "memorandum",
+        "GoldenglowRoom.9": "notes",
+        "GoldenglowRoom.10": "A bunny modeled after Susie, perhaps a gift from Emily",
+        "GoldenglowRoom.11": "Mirror",
+        "GoldenglowRoom.12": "It can be seen that it is well taken care of by Susie"
+		         }
+    }
+    
+
+  ]
+}

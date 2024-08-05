@@ -1,0 +1,11 @@
+{
+    "Name": "Goldenglow ",
+    "Author": "ForNext",
+    "Version": "1.0.1",
+    "Description": "😙🐷",
+    "UniqueID": "Goldenglow",
+    "UpdateKeys": [ "Nexus:26574" ],
+    "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+        }
+  }

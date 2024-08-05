@@ -1,0 +1,68 @@
+{
+    //Susie goes to work on Monday, Friday and Saturday
+    //eml week 2 3 4 7 work
+    //If it rains, Susie goes to work
+    //(0 (up), 1 (right), 2 (down) and 3 (left) total 13 daily locations
+/*Haley's House (30 13 0/28 7 0)
+Facing the bookshelf
+Facing the blue book
+Town (26 21 2 sitting/26 99 2/34 76 2 looking at flowers/73 101 2 looking at the river/37 89 3 looking at trees)
+Park chair
+The tree in front of Haley's house
+ArchaeologyHouse (11 11 2 sitting and reading/10 12 3 reading/22 9 3 reading/)
+Mountain (35 11 1/56 36 3)
+Above
+Below
+Beach (55 21 2/11 39 2)
+Right
+Left
+Forest (66 44 2/33 25 2)
+Under the tree
+Lake
+Desert 14 31 3*/
+    "rain": "GOTO Mon",
+    "GreenRain": "0 HaleyHouse 25 18 2",
+
+    "spring": "900 HaleyHouse 16 25 3/1200 HaleyHouse 28 12 2/2430 HaleyHouse 31 7 1 goldenglow_sleep",//
+    "Mon": "700 HaleyHouse 28 7 0/1100 Town 26 99 2/1530 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 31 7 1 goldenglow_sleep",
+    
+    "Tue": "700 HaleyHouse 30 13 0/1100 Beach 11 39 2/1600 Town 26 99 2/1900 HaleyHouse 28 7 0/2200 HaleyHouse 31 7 1 goldenglow_sleep",
+	
+    "Wed": "900 ArchaeologyHouse 11 11 2 goldenglow_sit_read/1400 Town 34 76 2/1800 HaleyHouse 30 13 goldenglow_read/2200 HaleyHouse 31 7 1 goldenglow_sleep",
+	
+	"Thu": "700 HaleyHouse 28 7 0/1000 Forest 66 44 goldenglow_sit_read/1400 Forest 33 25 2/1800 Town 26 99 2/2000 HaleyHouse 30 13 goldenglow_read/2200 HaleyHouse 31 7 1 goldenglow_sleep",
+	
+	"Fri": "700 HaleyHouse 28 7 0/1100 HaleyHouse 30 13 goldenglow_read/1530 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 31 7 1 goldenglow_sleep",
+	
+	"Sat": "900 HaleyHouse 30 13 0/1300 Town 26 99 2/1530 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 31 7 1 goldenglow_sleep",
+	
+	"Sun": "900 Town 26 99 goldenglow_read/1200 Mountain 35 11 1 \"Strings\\schedules\\Goldenglow:mountain.000\"/1800 HaleyHouse 30 13 goldenglow_read/2200 HaleyHouse 31 7 1 goldenglow_sleep",
+    
+    "summer_Tue":"800 Town 26 99 2/1100 ArchaeologyHouse 11 11 2 goldenglow_sit_read/1400 Beach 55 21 2/1900/1900 HaleyHouse 28 7 0/2200 HaleyHouse 31 7 1 goldenglow_sleep",
+    
+    "summer_Wed":"900 Town 34 76 2/1200 Mountain 35 11 1 \"Strings\\schedules\\Goldenglow:mountain.000\"/1800 HaleyHouse 30 13 goldenglow_read/2200 HaleyHouse 31 7 1 goldenglow_sleep",
+    
+    "summer_Thu":"700 HaleyHouse 30 13 0/1000 Town 73 101 2/1400 Beach 11 39 2/1900 HaleyHouse 28 7 0/2200 HaleyHouse 31 7 1 goldenglow_sleep",
+    
+    "summer_Sun":"GOTO Thu",
+
+    "winter_Tue":"800 Town 26 99 2/1100 ArchaeologyHouse 11 11 2 goldenglow_sit_read/1400 Beach 55 21 2/1900 HaleyHouse 28 7 0/2200 HaleyHouse 31 7 1 goldenglow_sleep",
+    
+    "winter_Wed":"900 HaleyHouse 28 7 0/1100 Mountain 35 11 1 \"Strings\\schedules\\Goldenglow:mountain.000\"/1800 HaleyHouse 30 13 goldenglow_read/2200 HaleyHouse 31 7 1 goldenglow_sleep",
+    
+    "winter_Thu":"700 HaleyHouse 30 13 0/1300 ArchaeologyHouse 11 11 2 goldenglow_sit_read/1800 Town 37 89 3 \"Strings\\schedules\\Goldenglow:wintertree.000\"/2200 HaleyHouse 31 7 1 goldenglow_sleep",
+    
+    "winter_Sun":"700 HaleyHouse 28 7 0/1000 Forest 66 44 2/1400 Forest 33 25 2/1800 Town 26 99 2/2000 HaleyHouse 30 13 goldenglow_read/2200 HaleyHouse 31 7 1 goldenglow_sleep",
+    
+    "winter_15": "700 HaleyHouse 30 13 0/1000 ArchaeologyHouse 11 11 2 goldenglow_sit_read/1530 Beach 11 32 3 \"Strings\\schedules\\Goldenglow:winter_15.000\"/2300 HaleyHouse 31 7 1 goldenglow_sleep",
+    
+    "DesertFestival_1": "700 HaleyHouse 28 7 0/800 Desert 14 31 3 \"Strings\\schedules\\Goldenglow:desert.000\"/2300 bed",
+
+    "marriage_DesertFestival_1": "800 Desert 14 31 3 \"Strings\\schedules\\Goldenglow:desert.000\"/2300 bed",
+    "marriage_Mon": "1100 Town 26 99 2/1530 Saloon 15 17 0 square_5_1_0/2200 bed",
+    "marriage_Fri": "900 Beach 11 39 2/1530 Saloon 15 17 0 square_5_1_0/2200 bed"
+   
+   // "summer_Sun": "900 Town 26 99 goldenglow_read/1200 Mountain 35 11 1/1700 27 21 goldenglow_sit/2000 HaleyHouse 30 13 goldenglow_read/2200 HaleyHouse 31 7 1 goldenglow_sleep"
+
+    
+}

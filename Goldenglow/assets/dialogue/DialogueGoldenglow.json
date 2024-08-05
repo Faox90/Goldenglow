@@ -1,0 +1,133 @@
+{
+                  "Introduction": "Hmm...? $3#$b# Oh! You must be the new farmer. Nice to meet you. Just call me Susie.",
+
+                  //daily
+                  "Mon":"Hi!",
+                  "Tue":"Hmm? #$e#What do you want to talk to me about?",
+                  "Wed":"Hello!",
+                  "Thu":"What do you plan to do tomorrow?",
+                  "Fri":"How do you feel today?",
+                  "Sat":"...Sorry, I'm not in a good mood today...$12#$e#Hmm?$10",
+                  "Sun":"You look good today!$1",
+                  "Sun2":"How are you doing recently?",
+
+                  //spring
+                  "spring_Mon":"Spring always makes people full of hope.",
+                  "spring_Tue":"Hey, how's %farm going?",
+                  "spring_Wed":"It's spring again. There are endless tasks to be done, but good things always fade away...$8#$b#...Well, I mean to stop and enjoy the short spring time.",
+                  "spring_Fri":"At that time, I begged Gus, the boss, for a long time to get this job in the bar. #$e#After all, this is one of the few things I am good at, hehe.$1",
+
+                  //summer
+                  "summer_1":"Well, it's the hot season again...$8",
+                  "summer_Mon": "The weather is so nice, the sky in summer is always so beautiful! Right?$9",
+                  "summer_Tue": "Hey, take care of yourself on such a hot day, you can take a break from farm work.$13",
+                  "summer_Wed": "@, it's so hot, come to the bar when you have time, it's very cool there.",
+                  "summer_Thu": "Hello!",
+                  "summer_Fri":"Summer is always so hot. #$b#The sun is, and the rain is too. Well...$8",
+                  "summer_Sat": "Hello!",
+                  "summer_Sun": "This comfortable job reminds me of the uneasy past.$7#$b#Oh, we have to look forward, don't we?$9",
+                  "summer_Thu2":"Hi, @!#$q 12/13 summer_Thu2_old#I always notice how high and blue the sky is in the summer...#$r 12 0 summersky1#I feel so too.#$r 13 0 summersky2#Maybe you didn't notice it in other seasons...",
+                  "summersky1":"Hmm.",
+                  "summersky2":"Maybe.",
+                  "summer_Thu2_old": "$p 12#...|Hmm? What's up?",
+                  "GreenRain":"@, you know, I thought the world was ending when I woke up this morning, haha. #$e# Uh... But this isn't very funny, it's not comfortable to be caught in this rain.$10",
+                  "GreenRain_2":"... Although it's not the first time this rain has fallen, I'm still not used to it.$12",
+                  "GreenRainFinished":"Well, it's over, but it's like it never happened...$8",
+
+                  //autumn
+                  "fall_1":"The autumn scenery is pleasant! @, how do you feel?",
+                  "fall_Mon": "Hello!",
+                  "fall_Tue": "When you are in a good mood, everything you see is comfortable. #$b# So, @, you must keep a good mood. $9",
+                  "fall_Wed": "@, sometimes I may accidentally put on an unhappy expression... $10#$b# Don't take it too seriously, it's just because of my physical condition. $12",
+                  "fall_Thu": "Hi!",
+                  "fall_Fri": "@... Let me tell you secretly, I am actually good at cutting hair, hehe. $1#$e# Um... $7",
+                  "fall_Sat": "Hi, have a good day today too! $1",
+                  "fall_Sun": "Hello!",
+                  "fall_Sun6": "Nice to meet you! $1",
+                  "fall_Thu2":"Hi, @!#$q 14/15 fall_Thu2_old#Sometimes I think that the depressing atmosphere on a rainy day is also a kind of beauty from an appreciation perspective...#$r 14 0 fallsky1#I feel so too.#$r 15 0 fallsky2#Well...I still prefer sunny days.",
+                  "fallsky1":"Yeah.",
+                  "fallsky2":"That's true.$8",
+                  "fall_Thu2_old": "$p 14#...|Yeah...sorry I was just thinking about something...$12",
+                  //winter
+                  "winter_Mon": "@, is it cold? Come to the bar if you have time.",
+                  "winter_Tue": "...$10#$e# This winter is so cold, I don't want to go out at all...$2",
+                  "winter_Tue6":"@, how is your winter, is your farm going well?",
+                  "winter_Wed4": "Hello!",
+                  "winter_Wed8": "I always accidentally shock my friends, alas...$7",
+                  "winter_Thu": "Hmm, it's so cold...$2",
+                  "winter_Fri": "When it's cold, I inexplicably miss the heat of summer.$8#$b#Hmm, it's really inexplicable...$12",
+                  "winter_Sat": "Hello! See you again.$1#$e#Hmm? Is there anything I can help you with?",
+                  "winter_Sun": "Hi! @, your hair seems to have grown a lot longer.",
+                  "winter_Mon2":"Hello.#$q 10/11 winter_Mon2_old#Um...it's just...@, do you think I'm too fancy in this outfit...#$r 10 20 Winteryf1#No, it's pretty nice. #$r 11 -50 Winteryf2#Yeah...it's true. ",
+                  "Winteryf1":"*Happy*$4",
+                  "Winteryf2":"Um...Is that so...$2",
+                  "winter_Mon2_old": "$p 10#Um...$4|Um...Sorry, I'm not in a good mood today...$2",
+                  //special
+                  "spring_1_2": "Happy New Year! @! $1",
+                  "MovieInvitation":"For me? $9#$b#See you there! $1",
+
+                  "Resort_Entering": "This island is really beautiful. I was looking forward to it when I was on the boat...$1",//Enter
+                  "Resort_Leaving": "Well, I had a lot of fun today. #$e# How was your day? $9",//leave
+                  "Resort_Shore": "@, what do you think of my outfit? #$b# Hey, I've kept this for a long time. Today I finally have the chance to wear it. $1",
+                  "Resort_Umbrella": "It's really comfortable here. #$e#@, do you want to come too? $9",
+                  "Resort_Chair": "@, hello, are you here to relax too?",
+                  "Resort_Wander": "I actually want to visit other places on this island...#$e#But Captain Willy doesn't allow us to leave this beach for safety reasons. $12#$e#I think you must have been to other places on this island. Can you tell me what they are? ! $9",
+                  "Resort_Bar": "Wow, it really is the characteristic of this place! $9",
+                  "Resort": "Occasionally, you should give yourself a break. #$e#Work is for a better rest, isn't it? Hehe...$1",
+                  
+                  "breakUp": "Woo...$10#$b#I see...$2",//分手
+                  "divorced": "...$10#$b#...I'm so tired, can you let me rest for a while?$2",//divorce
+                  "AcceptBouquet": "Huh!?$6#$b#Yes! I accept!$4",//send flowers
+                  "RejectBouquet":"Ah...$13#$b#Hmm...I think we don't know each other well enough...$12",
+
+                  "FlowerDance_Decline": "Hmm... I think I'd better give up dancing... I'm a little embarrassed...$13", //Reject FlowerDance
+                  "FlowerDance_Accept": "Hmm, I do! Wait until I'm ready!$9",
+                  "FlowerDance_Accept_Spouse": "Okay!$1",
+                  "dating_Goldenglow": "%Susie is a little shy.",
+                  "dating_Goldenglow_memory_oneday": "Hmm?$4",
+                  "dating_Goldenglow_memory_oneyear": "It seems like we've been together for a year without realizing it...$8#$e#Hmm... I'm a little confused...$7",
+                  "married_Emily": "Happy wedding, @!#$e# But after Emily left, this house feels a lot emptier...$7",
+                  //Pre-holiday conversation
+                  "spring_12":"Hi! @! Tomorrow is the Easter Egg Festival, are you ready?$1",
+                  "spring_23":"Tomorrow is the Flower Dance Festival, @, you must not forget it!$9",
+                  "summer_9":"There will be a grand event on the beach tomorrow.#$b#...Hmm? I mean there will be delicious food again!$9",
+                  "summer_27":"You can see the moonlight jellyfish tomorrow, hehe, the whole summer is looking forward to it!$1#$b#You will come to see it with me, right?$9",
+                  "fall_15":"Hmm...@, have you prepared the items for tomorrow's exhibition?$9",
+                  "winter_24":"Hi, @, have you prepared the gift for him tomorrow?$9",
+
+                  //event
+                  "event_archaeology_1":"Here, it is this book...*Let me show you the book*$8#$b#You may not understand some of the contents in this book...$12",
+                  "event_archaeology_2":"Hmm...$7",
+                  "event_beach_1":"Hmm?$8#$b#Why are you here?",
+                  "event_mountain_1":"Hmm.#$b#And the scenery here is really nice.$9",
+                  "event_mountain_2":"Come and relax.#$b#And the scenery here is really nice.$9",
+                  "event_mountain_3":"I don't know what to say, so I came here to take a look.#$b#And the scenery here is really nice.$9",
+                  "event_mountain_4":"Hmm...Somewhat...$8",
+                  "event_mountain_5":"Hmm...$8",
+
+                  //Location dialogue
+                  //"summerBeach_x_y":"",
+                  //"summerMountain_x_y":"",
+                  //"Mountain_35_11":"The valley is really quiet. It's nice to come here and relax occasionally. $1",
+                  "fallBeach_11_39":"The sea is so close to us, it is really a kind of happiness...#$e#I really like the vastness of the sea, it is endless...",
+                  "winterBeach_55_22":"Well, the wind is quite strong today. It hurts a bit when the wind hits my face.",
+                  //Birthday gift dialogue (to be supplemented)
+                  "AcceptBirthdayGift_Loved": "!!! $6#$b#@, you actually remembered my birthday... It's great to have you! $1",
+                  "AcceptBirthdayGift_Liked": "Thank you for remembering my birthday! I'll take it! $1",
+                  "AcceptBirthdayGift_Neutral": "Thank you! $1",
+                  "AcceptBirthdayGift_Disliked": "No...$2",
+                  "AcceptBirthdayGift_Hated": "Hmm...? $10#$b#*Silence*$2",
+                  //Special Gift Dialogue Peach 636/Cat's Eye 564/Glass Yam 208/Radish Salad 609/Emerald 70/Rose Fairy 595/Battery 787 Fruit Wine 348/Magic Sugar Popsicle 279/Colorful 74
+                 
+                  "AcceptGift_(O)StardropTea": "Wow, is this really for me?! $6#$b# It looks really good, thank you! $1",
+                  "AcceptGift_(O)208": "It looks delicious, @, thank you! $1",
+                  "AcceptGift_(O)609": "It looks delicious, thank you! $1",
+                  "AcceptGift_(O)70": "Wow, what a beautiful stone! $6",
+                  "AcceptGift_(O)564": "Wow, what a beautiful stone! $6#$b# Uh... This must be hard to find, thank you so much... $4",
+                  "AcceptGift_(O)636": "Hmm, this peach looks pretty good, thank you. $1",
+                  "AcceptGift_(O)595": "Hmm, this flower smells so good. @, thank you! $6",
+                  "AcceptGift_(O)787": "Hmm? Batteries? #$b# I think this will be useful, thank you. $1",
+                  "AcceptGift_(O)348": "Thank you. $1",
+                  "AcceptGift_(O)279": "This must be very valuable. Thank you so much for your trouble! $6",
+                  "AcceptGift_(O)74": "Hmm, this gem looks so colorful... $6#$b# It must be very precious. Thank you, @! $1"
+}

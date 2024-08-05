@@ -1,0 +1,360 @@
+{
+    "Changes": [
+      {
+      //Easter Egg Festival
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "Goldenglow 29 55 2",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",//This is the Easter egg hunt.
+            "Target": ["Entries", "MainEvent_additionalCharacters"],
+            "Value": "Goldenglow 36 64 3",
+            "Delimiter": "/"
+          }
+        ]
+      },
+      {//the second year
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "Goldenglow 36 62 0",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+            "Value": "Goldenglow 35 62 2",
+            "Delimiter": "/"
+          }
+        ]
+      },
+
+      //Easter Egg Festival Dialogue
+      {
+            "Action": "EditData",
+            "Target": "data/festivals/spring13",
+            "Entries": {
+                "Goldenglow": "These foods look delicious! Hehe. $1#$e#Finding Easter eggs is also very interesting, @, come on! $9",
+                "Goldenglow_y2": "Hey @, are you ready to pick up those eggs?! $1",
+                "Goldenglow_spouse": "Happy holidays, dear! $1",
+                "Goldenglow_spouse_y2": "Well, the first festival of spring. How do you feel, dear? $9#$e#Thanks to these festivals, Stardew Valley has become more lively. $1"
+            }
+       },
+      //Flower Dance
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "Goldenglow 6 33 2",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters"],
+            "Value": "Goldenglow 4 29 1",//
+            "Delimiter": "/"
+          }
+        ]
+      },
+
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "Goldenglow 10 42 2",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+            "Value": "Goldenglow 24 25 2",//
+            "Delimiter": "/"
+          }
+        ]
+      },
+      //Flower Dance Dialogue
+      {
+          "Action": "EditData",
+          "Target": "data/festivals/spring24",
+          "Entries": {
+              "Goldenglow": "...Although I'm not very good at dancing, I'd like to give it a try. $4#$e#Wow, what a big jelly. $9",
+              "Goldenglow_y2": "The scenery of this place is still great, but it is only open once a year...$8",
+              "Goldenglow_spouse": "Um, do you want to come together? $9",
+              "Goldenglow_spouse_y2": "Well, it's quite cool in this valley. But it will be hot again soon...$7#$e#But... dear, come and dance, I'm ready! Hehe. $1"
+          }
+    },
+
+    //Hawaii
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "Goldenglow 44 13 3",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters"],
+            "Value": "Goldenglow 27 14 1",
+            "Delimiter": "/"
+          }
+        ]
+      },
+
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "Goldenglow 31 8 2",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+            "Value": "Goldenglow 29 5 2",
+            "Delimiter": "/"
+            }
+          ]
+        },
+        //Hawaii Dialogue
+      {
+          "Action": "EditData",
+          "Target": "data/festivals/summer11",
+          "Entries": {
+              "Goldenglow": "The governor really comes to our place every year to taste this soup, but it can be seen that this soup tastes really good. $9#$e#Well... But then again, it's incredible that this soup can taste good with so many different ingredients added...$12",
+              "Goldenglow_y2": "Hey @, guess what I added to my soup this year?",//
+              "Goldenglow_spouse": "Hmm... I really can't think of what to add... $7#$e# If I add some wine, will this soup still be drinkable... $8",
+              "Goldenglow_spouse_y2": "I can't wait to taste the saltiness of this soup, hehe. #$e#By the way, @, don't forget to add food. $1"
+            }
+     },
+        //Moon Jellyfish
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "Goldenglow 48 24 2",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters"],
+            "Value": "Goldenglow 26 36 2",
+            "Delimiter": "/"
+          }
+        ]
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "Goldenglow 38 36 2",//
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+            "Value": "Goldenglow 26 36 2",
+            "Delimiter": "/"
+          }
+        ]
+      },
+      //Moonlight Jellyfish Dialogue
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/summer28",
+            "Entries": {
+                "Goldenglow": "Hi @, wanna come watch this? $1",
+                "Goldenglow_y2": "Hello! Do you want to watch it together? $1",
+                "Goldenglow_spouse": "Hmm? Come here and watch it together. $1",
+                "Goldenglow_spouse_y2": "A beautiful view needs the right person by your side to be more beautiful, right? $1#$e#Hmm? What's wrong? $4"
+            }
+      },   
+        //Exhibition Festival
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "Goldenglow 31 74 0",
+            "Delimiter": "/"
+          }
+        ]
+      },
+ 
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "Goldenglow 39 72 3",//
+            "Delimiter": "/"
+          }
+        ]
+      },
+        //Exhibition Festival Dialogue
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/fall16",
+        "Entries": {
+          "Goldenglow": "Wow, this exhibition looks really big...#$e# These mini games look really interesting! $9",
+          "Goldenglow_y2": "How is the harvest this year? #$e# Last year I played with that turntable, and the more I played, the angrier I got! @, I advise you not to choose the green one! Definitely not!! $5",
+          "Goldenglow_spouse": "How do you feel, dear? #$e#What a lively town this is! $1",
+          "Goldenglow_spouse_y2": "Well, this might be the most lively festival in Stardew Valley. #$e#Wow, dear. Look, there are really a lot of tourists! $9"
+            }
+      },
+          //All Souls' Day
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "Goldenglow 33 73 0",
+            "Delimiter": "/"
+          }
+        ]
+      },
+     {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "Goldenglow 35 28 0",//
+            "Delimiter": "/"
+          }
+        ]
+      },
+
+          //All Souls' Day Dialogue
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/fall27",
+        "Entries": {
+            "Goldenglow": "Well... I won't go into the maze...$8#$e# But this carved pumpkin is pretty cute...$9",
+            "Goldenglow_y2": "Wow, this year's maze is so big. It'll take me a long time to figure it out again... $7#$e# Hmm? Are you lost too?",
+            "Goldenglow_spouse": "Well, I won't go to the maze this year...$8#$b# But, dear, can you share what you saw and heard inside, hehe. $1",
+            "Goldenglow_spouse_y2": "Hmm? Why am I here? $8#$b#Well...because the maze is bigger this year, I want to come in and take a look...#$e#But this reminds me of a proverb. $8#$b#'Curiosity kills the cat'...Haha. $1"
+            }
+      },
+          //Snow Festival
+         {
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter8",
+          "TextOperations": [
+            {
+               "Operation": "Append",
+              "Target": ["Entries", "Set-Up_additionalCharacters"],
+              "Value": "Goldenglow 72 49 3",
+              "Delimiter": "/"
+            },
+            {
+              "Operation": "Append",
+              "Target": ["Entries", "MainEvent_additionalCharacters"],
+              "Value": "Goldenglow 79 29 0",
+              "Delimiter": "/"
+            }
+          ]
+        },
+        {
+          "Action": "EditData",
+           "Target": "Data/Festivals/winter8",
+          "TextOperations": [
+           {
+               "Operation": "Append",
+               "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+               "Value": "Goldenglow 79 39 3",
+               "Delimiter": "/"
+            },
+             {
+               "Operation": "Append",
+               "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+               "Value": "Goldenglow 78 29 0",
+               "Delimiter": "/"
+             }
+           ]
+         },    
+
+          //Ice and Snow Festival Dialogue
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/winter8",
+         "Entries": {
+            "Goldenglow": "Hey, @, do you want to go inside this igloo? It looks pretty nice. $4",
+            "Goldenglow_y2": "@, good luck in the competition! $1",
+            "Goldenglow_spouse": "Dear, I hope you can easily win the championship this year! $9#$e#Hmm...?",
+            "Goldenglow_spouse_y2": "Hiss... It's so cold. $10#$e# I kind of want to go back early...$10#$b# Um... I almost forgot you still have a game to play, come on! $9"
+            }
+      },
+
+          //Winter Star
+    {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "Goldenglow 23 74 0",
+            "Delimiter": "/"
+          }
+        ]
+      },
+     {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "Goldenglow 34 68 2",//
+            "Delimiter": "/"
+          }
+        ]
+      },
+         //Winter Star Dialogue
+      {
+            "Action": "EditData",
+            "Target": "data/festivals/winter25",
+            "Entries": {
+                "Goldenglow": "Hi, @, this festival is really well organized! $9#$e#This is really a happy town, isn't it?",
+                "Goldenglow_y2": "Hi, it's the end of another year. I really enjoy every day in Stardew Valley! #$b#@, how about you?!",
+                "Goldenglow_spouse": "@, did you listen to Gus's long speech just now? #$b# I think I might give it a try, it feels pretty good. $9",
+                "Goldenglow_spouse_y2": "Happy holidays, dear! $1#$e# How do you feel about this year? Well... it's almost a new year...$8"
+            }
+      }
+    ]
+}

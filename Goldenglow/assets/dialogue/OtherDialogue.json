@@ -1,0 +1,26 @@
+{
+   "Changes": [
+
+	{
+	"LogName": "Gus Dialogue",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Gus",
+	"Entries": {
+			"married_Goldenglow": "Hello, @, happy wedding to you and Susie! #$e# Well...it's just that there are some vacancies in the store after she left...",
+            "Thu2": "Although Miss Susie was a little hesitant when she first came here...but now she is much better and more skilled.",
+            "Fri2": "*whisper* Miss Susie once told me that she wanted to open a barber shop in Stardew Valley...#$e# Although she said it was just a casual talk. But Stardew Valley really needs a barber, doesn't it?"
+		}
+	},
+
+	{
+	"LogName": "eml dialogue",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Emily",
+	"Entries": {
+			"married_Goldenglow": "Happy wedding, @! #$e# But after Susie left, I have to be busy again.",
+            "dating_Goldenglow":"Hey, I heard you and Susie are together. #$b#@, Susie is a good girl, don't let her down."
+		}
+	}
+    
+  ]
+}

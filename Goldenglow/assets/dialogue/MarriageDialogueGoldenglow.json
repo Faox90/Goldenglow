@@ -1,0 +1,72 @@
+{
+    //At home (Omelet 195/Salad, 196/Cheese Cauliflower, 197/Grilled Fish, 198/Perfect Breakfast, 201/Lucky Lunch, 204/Pizza, 206/Salmon Dinner, 212/Bread, 216/Pumpkin Soup, 236/Coffee, 395/)
+     "Indoor_Day_0": "Hmm? Are you going to work again? #$b# Come, try it, I made it myself, hehe.[195 196 206 201 204 216 236]$9",
+     "Indoor_Day_1": "Hmm? Ordinary is joy, dear~$1",
+     "Indoor_Day_2": "Honey, are you ready to go out? #$b# I see you've been drinking this recently, so I learned to make some, let's try it.[395]$9",
+     "Indoor_Day_3": "How did you sleep last night? Today is another beautiful day. $1",
+     "Indoor_Day_4": "Good morning, dear.",
+     "Indoor_Day_Goldenglow":"My dear, please be happy today too.",
+     
+     "Indoor_Night_0": "I'm back, dear. You must be exhausted after a busy day. #$b# Come and try it. I just made it. [196 197 198 206 212 236]$1", 
+     "Indoor_Night_1": "You are back. Good evening, dear. $4",//
+     "Indoor_Night_2": "Sometimes I think that it is a very happy and incredible thing that we have someone like us in this vast world! $4",
+     "Indoor_Night_3": "I'm back. Um, I'm a little sleepy...$8",//
+     "Indoor_Night_4": "good night.",
+    
+    //Outside
+     "Outdoor_0": "Looking at such a beautiful world outside, you are still by my side...#$e#It is hard to believe it is true, but it is true! Hehe...$1",  
+     "Outdoor_1": "Well, dear, how are you feeling today?",
+     "Outdoor_2": "It's another beautiful day. I really enjoy life in Stardew Valley...#$e# Especially when you are by my side~$1",
+     "Outdoor_3": "Honey, what are you going to do today?",
+     "Outdoor_4": "Good morning, dear!",
+    
+    //rain
+     "Rainy_Day_0": "Is it raining again...$8#$b#Remember to be safe while working! $10",//
+     "Rainy_Day_1": "Wow, it's raining again...$8",
+     "Rainy_Day_2": "Well, it's raining really hard today, dear, do you really want to go to work...$10",
+     "Rainy_Day_3": "It's a pleasure to hide indoors and listen to the rain, but it's not fun to go out...$8#$e#Well, dear, do you really want to go out today? $2",//
+     "Rainy_Day_4": "Um, it's raining so hard...$8#$b# Come, try it, I just made it! Be careful when you go out.[195 197 206 201 204 236]$1",
+
+     "Rainy_Night_0": "Wow, honey, look at you, you're all wet...$5#$b# Well, don't get sick. $2",//
+     "Rainy_Night_1": "Hmm? I'm back. Change your wet clothes quickly. #$e# Hey, guess what I prepared for dinner tonight?[196 197 198 206 212 236]$1",
+     "Rainy_Night_2": "Well, I hope the rain didn't bother you...$10",
+     "Rainy_Night_3": "You are finally back, pack up and go to bed early. It is really comfortable and relaxing to sleep listening to the sound of rain! $1",
+    //season
+     "spring_Goldenglow": "Spring is so full of vitality...",
+     "spring_1": "Dear, Happy New Year! Let's work hard together this year! $1",
+     "spring_16": "Before we know it, spring is already halfway over. Well, if there is anything you want to do this spring, don't wait until next spring.",
+     "spring_23": "Tomorrow is the Flower Dance Festival again...$8#$e#Dear, don't forget it.",
+
+     "summer_Goldenglow": "Well, there are so many little bugs in the summer...$7#$e#But I have the means to deal with them, @, don't worry!",
+     "summer_1": "The weather is getting hot again. You must pay attention to your health when working and don't get heat stroke. $10",//
+     "summer_8":"Ugh... it's so hot I don't want to move at all... $2",
+     "summer_27": "Well, dear, don't forget the moonlight jellyfish tomorrow night. See you there. $4",
+
+     "fall_Goldenglow": "Autumn is so cool, and those annoying little bugs are starting to disappear. I really enjoy this season...",
+     "fall_1": "It's finally cool. But I have to say, the environment changes so quickly. $1",
+     "fall_26": "Well, the temperature seems to be getting a little cold recently. Dear, please remember to put on more clothes. $9",
+
+     "winter_Goldenglow": "The wind seems to be quite strong today, dear, please be careful.",
+     "winter_1": "Winter is here again, dear, please keep warm.",
+    
+    //Favorability
+    "Good_0": "I am the happiest when you are by my side, hehe. $4",
+    "Good_1": "Well, dear. I found that after we got together, I rarely have the unconscious sexual behavior I used to have, hehe. $1",
+
+    "Neutral_0": "Dear...it's been a long time since you've been with me...$2",
+    "Neutral_1": "Well...I think I understand your busyness...$10",
+
+    "Bad_0": "Sorry... am I making you feel uncomfortable here... $10#$e# oooh... $2",
+    "Bad_1": "Wow...somewhat nostalgic for the past...$2",
+    "Bad_2": "...Have I done something wrong recently? ...$2",
+     //special
+     "funLeave_Goldenglow": "Honey, I'm going out soon. #$e#Well, I'm probably going to go around town or help Boss Gus, don't worry about me. $1",
+     "funReturn_Goldenglow": "It’s nice to go out for a walk occasionally, hehe.",
+     "patio_Goldenglow": "Um...#$e# Why are you here? I was just thinking about something...#$e# It's okay. Dear, you should be happy today too~$1",
+     "spouseRoom_Goldenglow": "Dear, do you need a haircut? Hehe. $9#$e# will definitely satisfy you! $1",
+     "OneKid_0": "Well, it's hard to imagine that I'm already a mother...$7",
+     "OneKid_1": "Haha, %kid1 is really interesting. Maybe I will become someone like you when I grow up! $1",
+     "TwoKids_0": "They are both really cute...$9",
+     "TwoKids_1": "Wow, time flies...$8"
+    
+}

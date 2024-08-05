@@ -1,0 +1,37 @@
+{
+    "Changes": [
+        {
+          "LogName": "load",
+          "Action": "Load",
+          "Target": "Mods/Goldenglow_SpousePortrait",
+          "FromFile": "assets/img/Goldenglow_SpousePortrait.png"
+        },
+        {
+          "LogName": "Image furniture",
+          "Action": "EditData",
+          "Target": "Data/Furniture",
+          "Entries": {
+            "Goldenglow_SpousePortrait": "GoldenglowSpousePortrait/painting/2 2/2 2/1/30000/0/PortraitOfSusie/0/Mods\\Goldenglow_SpousePortrait"
+          }
+        },
+        {
+          "LogName": "shop",
+          "Action": "EditData",
+          "Target": "Data/Shops",
+          "TargetField": ["Traveler","Items"],
+          "Entries": {
+            "Goldenglow_SpousePortrait": {
+              "Id": "GoldenglowSpousePortrait",
+              "ItemId": "Goldenglow_SpousePortrait",  
+              "Price": 30000,
+              "AvailableStock": 1,
+              "AvailableStockLimit": "Player",
+              "Condition": "PLAYER_HEARTS Current Goldenglow 14"
+
+            }
+          }
+        }
+          ]
+
+
+}
